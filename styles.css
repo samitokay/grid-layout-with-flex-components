@@ -3,6 +3,14 @@ body {
     color: #222;
   }
   
+  .emojis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+
   .emoji {
     border: 1px solid #222;
     border-radius: 8px;
